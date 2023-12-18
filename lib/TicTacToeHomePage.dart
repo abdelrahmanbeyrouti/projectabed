@@ -12,12 +12,12 @@ class TicTacToeHomePage extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.purple[100], // Change to your preferred color
+        backgroundColor: Colors.pinkAccent, //
       ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage('https://static.vecteezy.com/system/resources/thumbnails/008/143/625/small_2x/seamless-pattern-with-gaming-icons-free-vector.jpg'),
+            image: NetworkImage('https://i.pinimg.com/736x/0a/f6/00/0af600cebaa64381828fc2b71321d066.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -38,8 +38,7 @@ class TicTacToeHomePage extends StatelessWidget {
                 'Challenge your friend and enjoy the game!',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 24.0,
-                  fontWeight: FontWeight.bold,// Increase the font size
+                  fontSize: 24.0, //
                 ),
               ),
               SizedBox(height: 40.0),
@@ -48,7 +47,7 @@ class TicTacToeHomePage extends StatelessWidget {
                   Navigator.pushNamed(context, '/game');
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.yellow, // Change to your preferred color
+                  primary: Colors.yellow, //
                   padding: EdgeInsets.symmetric(vertical: 30.0, horizontal: 60.0),
                   textStyle: TextStyle(
                     fontSize: 24.0,
@@ -59,11 +58,11 @@ class TicTacToeHomePage extends StatelessWidget {
               ),
               SizedBox(height: 20.0),
               Text(
-                'Siuuuuuuuu',
+                'Siuuuuu',
                 style: TextStyle(
-                  color: Colors.teal[200], // Change to your preferred color
-                  fontSize: 32.0, // Increase the font size
-                  fontWeight: FontWeight.bold, // Change to your preferred font weight
+                  color: Colors.teal, //
+                  fontSize: 32.0, //
+                  fontWeight: FontWeight.bold, //
                   decoration: TextDecoration.underline,
                 ),
               ),
@@ -74,3 +73,4 @@ class TicTacToeHomePage extends StatelessWidget {
     );
   }
 }
+

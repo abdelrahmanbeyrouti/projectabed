@@ -6,8 +6,8 @@ class TicTacToeGamePage extends StatefulWidget {
 }
 
 class _TicTacToeGamePageState extends State<TicTacToeGamePage> {
-  List<String> _board = List.filled(9, ''); // Flat list to represent the 3x3 board
-  bool _isPlayerX = true; // true for X, false for O
+  List<String> _board = List.filled(9, '');
+  bool _isPlayerX = true; //
   int _scoreX = 0;
   int _scoreO = 0;
 
@@ -16,7 +16,7 @@ class _TicTacToeGamePageState extends State<TicTacToeGamePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Tic Tac Toe Game'),
-        backgroundColor: Color(0xFFE57373), // Set the AppBar color
+        backgroundColor: Color(0xFFE57373), //
       ),
       body: Container(
         decoration: BoxDecoration(
@@ -180,7 +180,7 @@ class _TicTacToeGamePageState extends State<TicTacToeGamePage> {
   }
 
   bool _checkForWin() {
-    // Check rows, columns, and diagonals for a win
+    //
     for (int i = 0; i < 3; i++) {
       if (_board[i * 3] == _board[i * 3 + 1] &&
           _board[i * 3 + 1] == _board[i * 3 + 2] &&
